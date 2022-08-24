@@ -1,10 +1,7 @@
 #1. Write a Python program to sum all the items in a list. 
     #The list should be generated using list comprehension 
-    #The size of the list should be from a user input
-from operator import indexOf
-
-
-x=int(input("Enter the size of the list you want:"))
+    #The size of the list should be from a user inpu
+x=int(input("Enter the size of the list you want:"))#size of the list
 numbers =[x for x in range(x)]
 print(numbers)#outputs the list starting from zero
 sum=sum(numbers)
